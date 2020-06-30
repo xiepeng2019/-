@@ -1,0 +1,15 @@
+1、理论基础知识
+2、fiddler和postman工具的使用
+3、Git的使用
+4、unittest和pytest的基础复习
+5、所有的视频整体回顾
+6、中间件的复习
+7、Flask的使用
+8、http协议了解
+9、Redis的基础操作还需要加强学习，基本上无记忆
+10、AMQP协议的复习还需加强
+11、kafka的使用和工作模式
+12、进程与线程和协程的原理
+13、性能测试：locust、jmeter
+14、Jenkins的使用，结合Git进行持续化集成
+

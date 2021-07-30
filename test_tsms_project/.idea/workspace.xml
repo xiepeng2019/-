@@ -223,10 +223,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.study_dumps" />
-      <item itemvalue="Python.test_轮询主动拉取" />
       <item itemvalue="Python.匿名函数" />
       <item itemvalue="Python.login_test" />
+      <item itemvalue="Python.study_dumps" />
+      <item itemvalue="Python.test_轮询主动拉取" />
       <item itemvalue="Python tests.pytest in study_dumps.py" />
     </list>
     <recent_temporary>

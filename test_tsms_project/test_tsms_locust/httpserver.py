@@ -6,7 +6,6 @@ import datetime
 import json
 from gevent import pywsgi
 from flask import Flask, request
-from Config.db import test
 
 app = Flask(__name__)
 

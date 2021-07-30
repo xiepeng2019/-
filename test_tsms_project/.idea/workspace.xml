@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="dea36b03-e3c3-44a9-9b71-e5ff3a7a7f4c" name="Default Changelist" comment="" />
+    <list default="true" id="dea36b03-e3c3-44a9-9b71-e5ff3a7a7f4c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_tsms_locust/httpserver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/test_tsms_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test_tsms_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,15 +40,20 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1UhD50BPtZIaMhzAM51lWkDqf4X" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/test_study_project/test_oneday_01/私有变量.py" />
@@ -38,16 +67,16 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\test_tsms_project\test_study_project\RabbitMQ" />
+      <recent name="E:\test_tsms_project\tsms_pytest_commons\configs" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Test_P\project_tsms\test_tsms_project\test_tsms_locust" />
       <recent name="E:\test_tsms_project" />
       <recent name="E:\test_tsms_project\test_tsms_pile" />
       <recent name="E:\test_tsms_project\test_tsms_flask\templates" />
       <recent name="E:\test_tsms_project\test_tsms_flask" />
-      <recent name="E:\test_tsms_project\test_study_project\test_oneday_01" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\test_tsms_project\test_study_project\RabbitMQ" />
-      <recent name="E:\test_tsms_project\tsms_pytest_commons\configs" />
     </key>
   </component>
   <component name="RunManager" selected="Python.login_test">
@@ -187,6 +216,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/test_study_project/整体复习/study_dumps.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
@@ -196,8 +226,8 @@
       <item itemvalue="Python.study_dumps" />
       <item itemvalue="Python.test_轮询主动拉取" />
       <item itemvalue="Python.匿名函数" />
-      <item itemvalue="Python tests.pytest in study_dumps.py" />
       <item itemvalue="Python.login_test" />
+      <item itemvalue="Python tests.pytest in study_dumps.py" />
     </list>
     <recent_temporary>
       <list>
@@ -209,18 +239,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\99398\AppData\Roaming\Subversion</configuration>
   </component>
@@ -233,6 +252,17 @@
       <updated>1575799745478</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588764558534">

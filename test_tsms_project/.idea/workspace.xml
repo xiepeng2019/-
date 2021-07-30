@@ -19,11 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dea36b03-e3c3-44a9-9b71-e5ff3a7a7f4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_tsms_locust/httpserver.py" afterDir="false" />
+    <list default="true" id="dea36b03-e3c3-44a9-9b71-e5ff3a7a7f4c" name="Default Changelist" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/test_tsms_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test_tsms_project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +38,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="xiepeng" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1UhD50BPtZIaMhzAM51lWkDqf4X" />
@@ -55,7 +57,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/test_study_project/test_oneday_01/私有变量.py" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -251,6 +253,14 @@
       <option name="presentableId" value="Default" />
       <updated>1575799745478</updated>
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1627612606778</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1627612606778</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -264,76 +274,31 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588764558534">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1588764558534" />
-    <state x="2608" y="215" key="FileChooserDialogImpl" timestamp="1593502507541">
+    <state x="2660" y="274" key="FileChooserDialogImpl" timestamp="1627613033533">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="550" y="170" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585474361403" />
-    <state x="2608" y="215" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593502507541" />
-    <state width="1899" height="464" key="GridCell.Tab.0.bottom" timestamp="1593502281505">
+    <state x="2660" y="274" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627613033533" />
+    <state x="2381" y="164" key="SettingsEditor" timestamp="1627613081419">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1515" height="243" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1593427495506" />
-    <state width="1899" height="464" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593502281505" />
-    <state width="1515" height="351" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592132197160" />
-    <state width="1899" height="464" key="GridCell.Tab.0.center" timestamp="1593502281505">
+    <state x="2381" y="164" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627613081419" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1627612567106">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1515" height="243" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1593427495506" />
-    <state width="1899" height="464" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593502281505" />
-    <state width="1515" height="351" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592132197160" />
-    <state width="1899" height="464" key="GridCell.Tab.0.left" timestamp="1593502281505">
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627612567106" />
+    <state x="2683" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1627612551038">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1515" height="243" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1593427495505" />
-    <state width="1899" height="464" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593502281505" />
-    <state width="1515" height="351" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592132197160" />
-    <state width="1899" height="464" key="GridCell.Tab.0.right" timestamp="1593502281505">
+    <state x="2683" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627612551038" />
+    <state x="2582" y="118" width="596" height="804" key="find.popup" timestamp="1627613960660">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1515" height="243" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1593427495506" />
-    <state width="1899" height="464" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593502281505" />
-    <state width="1515" height="351" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592132197160" />
-    <state width="1515" height="315" key="GridCell.Tab.1.bottom" timestamp="1592103693251">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1515" height="315" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585492060705" />
-    <state width="1515" height="315" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592103693251" />
-    <state width="1515" height="315" key="GridCell.Tab.1.center" timestamp="1592103693251">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1515" height="315" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585492060705" />
-    <state width="1515" height="315" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1592103693251" />
-    <state width="1515" height="315" key="GridCell.Tab.1.left" timestamp="1592103693251">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1515" height="315" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585492060705" />
-    <state width="1515" height="315" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1592103693251" />
-    <state width="1515" height="315" key="GridCell.Tab.1.right" timestamp="1592103693251">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1515" height="315" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585492060705" />
-    <state width="1515" height="315" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1592103693251" />
-    <state x="2260" y="72" key="SettingsEditor" timestamp="1593501947903">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="272" y="57" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1593427493252" />
-    <state x="2260" y="72" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593501947903" />
-    <state x="272" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1592122539218" />
-    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1593427582270">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1592981712740" />
-    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593427582270" />
-    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1592103014405" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1588581894996">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1588581894996" />
+    <state x="2582" y="118" width="596" height="804" key="find.popup/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627613960660" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dea36b03-e3c3-44a9-9b71-e5ff3a7a7f4c" name="Default Changelist" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/test_tsms_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test_tsms_project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -260,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627612606778</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test">
+      <created>1627615743065</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1627615743065</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -273,20 +281,21 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2660" y="274" key="FileChooserDialogImpl" timestamp="1627613033533">
+    <state x="2660" y="274" key="FileChooserDialogImpl" timestamp="1627616444855">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2660" y="274" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627613033533" />
-    <state x="2381" y="164" key="SettingsEditor" timestamp="1627613081419">
+    <state x="2660" y="274" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627616444855" />
+    <state x="2381" y="164" key="SettingsEditor" timestamp="1627616449788">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2381" y="164" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627613081419" />
+    <state x="2381" y="164" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627616449788" />
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1627612567106">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>

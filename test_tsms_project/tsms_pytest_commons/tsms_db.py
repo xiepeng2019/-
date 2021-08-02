@@ -1,6 +1,10 @@
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/02
 from tsms_pytest_commons.configs.tsms_db_config import *
-import records,logging
-
+import records
+import logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)-16s %(levelname)-8s %(message)s:')
 
 

@@ -1,11 +1,14 @@
-import os,sys
-sys.path.append(os.getcwd())            #告诉pytest运行前先检索当前路径
-
-
-
-import requests, re, logging
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/02
+import os
+import sys
+import re
+import logging
+import requests
 from configs.tsms_web_config import *
-
+sys.path.append(os.getcwd())            #告诉pytest运行前先检索当前路径
 logging.basicConfig(level=logging.INFO, format='%(asctime)-16s %(levelname)-8s %(message)s')
 
 

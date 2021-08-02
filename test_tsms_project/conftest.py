@@ -1,10 +1,13 @@
-#coding=utf-8
-import pytest, logging
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/02
+import pytest
+import logging
 from tsms_pytest_commons.tsms_base import TsmsBase
 from tsms_pytest_commons.tsms_web import TsmsWeb
 from tsms_pytest_commons.tsms_db import TsmsDB
 from tsms_pytest_commons.tsms_rds import TsmsRedis
-
 logger = logging.getLogger(__name__)
 
 

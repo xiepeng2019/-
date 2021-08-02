@@ -1,5 +1,13 @@
-import gevent,time,logging
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/02
+import gevent
+import time
+import logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)-16s %(levelname)-8s %(message)s')
+
+
 # def foo():
 #     print('开始执⾏ foo')
 #     gevent.sleep(0)

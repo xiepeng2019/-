@@ -1,13 +1,17 @@
-import logging, requests
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/02
+import logging
+import requests
 import time
 import gevent
-
 logging.basicConfig(level=logging.INFO, format='%(asctime)-16s %(levelname)-8s %(message)s')
 from multiprocessing import Process, Pool
 from tsms_base import TsmsBase
 
-ts = TsmsBase()
 
+ts = TsmsBase()
 
 def task():
     url = "http://www.captaintests.club/v1/message"

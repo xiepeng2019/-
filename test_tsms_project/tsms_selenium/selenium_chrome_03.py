@@ -1,5 +1,11 @@
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/02
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+
+
 browser = webdriver.Chrome()
 browser.get('https://www.jd.com')
 # 1. 使⽤id，*代表所有标签

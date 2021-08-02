@@ -1,7 +1,13 @@
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/02
 import json
 from tsms_pytest_commons.tsms_rds  import TsmsRedis
-from flask import Flask, request
+from flask import Flask
 import logging
+import request
+
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)-16s %(levelname)-8s %(message)s')
 

@@ -1,4 +1,12 @@
-import random, string, os, json, pytest
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/02
+import random
+import string
+import os
+import json
+import pytest
 import requests
 from tsms_pytest_commons.common_tools.common_decorator import logging, logit
 from tsms_pytest_commons.configs.tsms_base_config import *

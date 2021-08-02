@@ -1,6 +1,15 @@
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/02
 from multiprocessing import Process,Queue
 from multiprocessing import Pool
-import os,time,random, threading
+import os
+import time
+import random
+import threading
+
+
 """⽀持跨平台多进程"""
 # def run_proc(name):
 #     print('正在执⾏的⼦进程 %s (%s)...' % (name, os.getpid()))

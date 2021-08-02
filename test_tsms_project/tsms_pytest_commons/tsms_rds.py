@@ -1,8 +1,11 @@
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/02
 import redis
 import logging
 from tsms_pytest_commons.configs.tsms_rds_config import *
 from tsms_pytest_commons.configs.tsms_base_config import *
-
 logging.basicConfig(level=logging.INFO, format='%(asctime)-16s %(levelname)-8s %(message)s:')
 
 

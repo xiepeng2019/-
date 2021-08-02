@@ -1,3 +1,7 @@
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/02
 from selenium import webdriver
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -6,6 +10,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 import random
 import time
+
+
 b = webdriver.Chrome()
 b.get('https://www.baidu.com')
 time.sleep(5)

@@ -1,10 +1,16 @@
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/02
 from kafka import KafkaProducer
 from kafka.errors import KafkaError
-import logging,random,json,time
-
+import logging
+import random
+import json
+import time
 from pymongo import MongoClient
-
 logging.basicConfig(level=logging.INFO, format='%(asctime)-16s %(levelname)-8s %(message)s')
+
 
 # client = MongoClient("mongodb://148.70.194.135:27017/")
 # db=client.tsms_box

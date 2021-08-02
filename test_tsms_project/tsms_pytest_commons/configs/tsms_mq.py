@@ -1,7 +1,12 @@
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/02
 import json
-import logging, pika
-
+import logging
+import pika
 logging.basicConfig(level=logging.INFO, format='%(asctime)-16s %(levelname)-8s %(message)s')
+
 
 mq_config = {
     "user": "admin",

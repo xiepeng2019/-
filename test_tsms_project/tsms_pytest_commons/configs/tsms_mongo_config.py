@@ -1,6 +1,11 @@
-import logging, pymongo
-
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/02
+import logging
+import pymongo
 logging.basicConfig(level=logging.INFO, format='%(asctime)-16s %(levelname)-8s %(message)s')
+
 
 mongo_config = {
     "host": "148.70.194.135",

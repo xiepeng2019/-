@@ -1,3 +1,8 @@
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/02
+
 import logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)-16s %(levelname)-8s%(message)s')
 from locust import HttpLocust, TaskSet, task

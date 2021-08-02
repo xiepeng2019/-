@@ -1,4 +1,10 @@
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/02
 import requests
+
+
 # get请求只有args
 # url = "http://192.168.31.237:5001/v1/3rd//"
 # r = requests.get(url=url)

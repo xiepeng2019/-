@@ -1,5 +1,11 @@
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/02
 import requests
 from requests_toolbelt import MultipartEncoder
+
+
 url = "http://127.0.0.1:5000/test/?a=1"
 # 若传字典，则会被识别为 form，因为requests库默认使⽤application/x-www-formurlencoded
 # data = {"name": "dcs"}

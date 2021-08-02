@@ -1,5 +1,10 @@
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/02
 import requests
-from requests_toolbelt import MultipartEncoder
+
+
 # 参数说明：
 # ('name', (None, 'dcs')) 1. files字段名 2. ⽂件名 3. ⽂件内容
 # 1. 如果⽂件名为None，⽂件内容是⼀个字符串，则requests会将其视为 form内容发送

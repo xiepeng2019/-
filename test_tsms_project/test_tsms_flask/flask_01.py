@@ -1,6 +1,13 @@
-from flask import Flask,redirect,url_for
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/02
+from flask import Flask
+from flask import redirect
 import logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)-16s %(levelname)-8s%(message)s')
+
+
 app = Flask(__name__)
 
 # @app.route('/getint/<int:sign_id>')
@@ -20,9 +27,13 @@ app = Flask(__name__)
 @app.route('/xp')
 def hello_xp():
     return '你好  xp'
+
+
 @app.route('/ql')
 def hello_ql():
     return 'hello ql'
+
+
 @app.route('/user/<name>')
 def hello_user(name):
     logging.info("[name is]:{}".format(name))

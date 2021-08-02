@@ -1,10 +1,14 @@
-from flask import Flask, render_template
-import records,requests,request
-from tsms_pytest_commons.configs import tsms_db_config
-import logging
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/02
+from flask import Flask
+from flask import render_template
+import records
 from xml.sax.saxutils import unescape
 import logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)-16s %(levelname)-8s %(message)s')
+
 
 # db = records.Database(
 #     'mysql+pymysql://{}:{}@{}:{}/{}?charset=utf8'.format(

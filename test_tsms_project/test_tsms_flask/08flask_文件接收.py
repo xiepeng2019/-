@@ -1,10 +1,16 @@
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/02
 import logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)-16s %(levelname)-8s%(message)s')
-from flask import Flask, request
 import os
-basedir = os.path.abspath(os.path.dirname(__name__))
+from flask import Flask, request
+logging.basicConfig(level=logging.INFO, format='%(asctime)-16s %(levelname)-8s%(message)s')
 # 当前⽬录下需要创建这个⽂件夹
+basedir = os.path.abspath(os.path.dirname(__name__))
 path = basedir + "/upload/"
+
+
 app = Flask(__name__)
 @app.route("/test/", methods=["GET", "POST"])
 def get_args():

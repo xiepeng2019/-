@@ -1,6 +1,13 @@
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/02
 import logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)-16s %(levelname)-8s%(message)s')
 from flask import Flask, request
+logging.basicConfig(level=logging.INFO, format='%(asctime)-16s %(levelname)-8s%(message)s')
+
+
+
 app = Flask(__name__)
 @app.route("/test/", methods=["GET", "POST"])
 def get_args():

@@ -1,5 +1,9 @@
-import requests,json.time
-
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/02
+import requests
+import time
 # url = 'http://30116895cy.qicp.vip/v1/3rd/'
 # headers = {
 #     "User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36",

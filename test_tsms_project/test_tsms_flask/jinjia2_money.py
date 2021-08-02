@@ -1,14 +1,19 @@
-from flask import Flask, redirect, render_template, request, flash
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/02
+from flask import Flask
+from flask import render_template
+from flask import request
+from flask import flash
 import logging
 from tsms_pytest_commons.tsms_rds  import TsmsRedis
-
 logging.basicConfig(level=logging.INFO, format='%(asctime)-16s %(levelname)-8s %(message)s')
+
 
 app = Flask(__name__)
 app.secret_key = "super secret key"
-
 rds = TsmsRedis()
-
 
 @app.route("/money", methods=["GET", "POST"])
 def sub_money():

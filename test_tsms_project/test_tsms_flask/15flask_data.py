@@ -1,6 +1,13 @@
-import logging,request,json
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/02
+import logging
+import request
+from flask import Flask
 logging.basicConfig(level=logging.INFO, format='%(asctime)-16s %(levelname)-8s%(message)s')
-from flask import Flask, render_template
+
+
 app = Flask(__name__)
 @app_3rd.route("/v1/3rd", methods=["POST"])
 def mock_3rd():

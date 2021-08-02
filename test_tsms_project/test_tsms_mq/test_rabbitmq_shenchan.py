@@ -1,22 +1,31 @@
-import logging,time,json
-from tsms_pytest_commons.tsms_rds import TsmsRedis
-from tsms_pytest_commons.configs import tsms_mq
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/02
 
+import logging
+import json
+from tsms_pytest_commons.tsms_rds import TsmsRedis
 from tenacity import retry, stop_after_attempt, wait_random_exponential
+
+
 logging.basicConfig(level=logging.INFO, format='%(asctime)-16s %(levelname)-8s%(message)s')
 rds = TsmsRedis()
 
-# def test_003():
-#     pass
 
 class TestTsmsMqConsume(object):
+    """
+    测试MQ的消费端
+    """
     @retry(stop=stop_after_attempt(5), wait=wait_random_exponential(2, max=5))
     def rds_retry(self, uuid, exp):
         res = rds.get_mq(uuid)
         assert json.loads(res) == exp
 
     def test_consume_01(self, tb, rds):
-        """验证mq消费到的的数据是否符合预期"""
+        """
+        验证mq消费到的的数据是否符合预期
+        """
         # 调接⼝
         data = tb.send_data()
         tb.req_post("message", data)

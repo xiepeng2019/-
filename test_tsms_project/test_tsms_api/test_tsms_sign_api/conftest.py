@@ -1,6 +1,12 @@
-import pytest,logging
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/02
+import pytest
+import logging
 from tsms_pytest_commons.tsms_base import TsmsBase
-# from tsms_pytest_commons.tsms_base import
+
+
 def pytest_addoption(parser):
  # 定义命令⾏参数
      parser.addoption('--env', action='store', default=None, help='传⼊host地址')

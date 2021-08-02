@@ -1,13 +1,15 @@
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/02
 from tsms_pytest_commons.tsms_base import TsmsBase
 from tsms_pytest_commons.tsms_db import TsmsDB
-import logging, pytest
-
-
+import logging
+import pytest
 logger = logging.getLogger(__name__)
 
 ts = TsmsBase()
 tb = TsmsDB()
-
 
 @pytest.fixture(scope="function")
 def sign_para_fail(request):

@@ -1,6 +1,11 @@
-import logging, pytest,requests
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/02
+import logging
+import pytest
+import requests
 import random
-
 logger = logging.getLogger(__name__)
 
 

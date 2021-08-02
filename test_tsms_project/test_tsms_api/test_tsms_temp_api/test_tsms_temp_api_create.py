@@ -1,7 +1,10 @@
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/02
 from tsms_pytest_commons.tsms_base import TsmsBase
-from tsms_pytest_commons.tsms_db import TsmsDB
-
 import logging, pytest
+
 
 logger = logging.getLogger(__name__)
 # 声明测试夹具

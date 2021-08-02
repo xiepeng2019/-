@@ -1,11 +1,15 @@
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/02
 from tsms_pytest_commons.tsms_base import TsmsBase
 from tsms_pytest_commons.tsms_db import TsmsDB
-from tsms_pytest_commons.tsms_rds import TsmsRedis
 from tsms_pytest_commons.configs.tsms_base_config import *
-import logging, pytest
+import logging
+import pytest
 from tenacity import retry, stop_after_attempt, wait_random_exponential
-
 logger = logging.getLogger(__name__)
+
 
 # 声明夹具
 td = TsmsDB()

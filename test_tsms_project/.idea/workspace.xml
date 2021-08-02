@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cd75b079-8ff3-4ae9-9e24-6913c29e377c" name="Default Changelist" comment="test">
+      <change beforePath="$PROJECT_DIR$/test_study_project/RabbitMQ/test_rabbitmq.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_study_project/RabbitMQ/test_rabbitmq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_study_project/RabbitMQ/test_rabbitmq_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_study_project/RabbitMQ/test_rabbitmq_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_study_project/RabbitMQ/test_rabbitmq_fabudingyue.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_study_project/RabbitMQ/test_rabbitmq_fabudingyue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_study_project/RabbitMQ/test_rabbitmq_object.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_study_project/RabbitMQ/test_rabbitmq_object.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_study_project/RabbitMQ/tsms_mq_to_redis.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_study_project/RabbitMQ/tsms_mq_to_redis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_study_project/test_oneday_01/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_study_project/test_oneday_01/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_study_project/test_oneday_01/test_百度贴吧.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_study_project/test_oneday_01/test_百度贴吧.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_study_project/test_yida_project/test_yida_api/login_up.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_study_project/test_yida_project/test_yida_api/resource_01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_study_project/test_yida_project/yida_pytest_commons/login_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_study_project/整体复习/python基础/Flask测试骨架.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_study_project/整体复习/python基础/匿名函数.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_study_project/整体复习/python基础/匿名函数.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_study_project/整体复习/python基础/爬虫.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_study_project/整体复习/study_dumps.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="TaskManager">
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2610" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1627872358697">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2610" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627872358697" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1627871644439">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627871644439" />
+  </component>
+</project>

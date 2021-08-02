@@ -1,9 +1,3 @@
-from gevent import monkey
-
-monkey.patch_all()
-# from utils.database import DataBase
-import datetime
-import json
 from gevent import pywsgi
 from flask import Flask, request
 

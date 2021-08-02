@@ -1,4 +1,9 @@
-import pytest,logging
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/02
+import pytest
+import logging
 """
 pytest自定义命令行
 """

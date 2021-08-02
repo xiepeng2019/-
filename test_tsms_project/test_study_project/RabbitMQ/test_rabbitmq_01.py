@@ -1,7 +1,14 @@
-import pika,random
-"""RBMQ实现生产"""
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/02
+import pika
+
+
+
 
 def callback(ch,method,properties,body):
+    """RBMQ实现生产"""
     print("获取到消息 %s" % body)
 
 credentials = pika.PlainCredentials("admin","admin")

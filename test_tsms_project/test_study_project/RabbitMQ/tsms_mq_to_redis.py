@@ -1,7 +1,13 @@
-import logging, pika, json
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/02
+import logging
+import pika
+import json
 from tsms_pytest_commons.tsms_rds import TsmsRedis
-
 logging.basicConfig(level=logging.INFO, format='%(asctime)-16s %(levelname)-8s %(message)s')
+
 
 mq_config = {
     "user": "admin",

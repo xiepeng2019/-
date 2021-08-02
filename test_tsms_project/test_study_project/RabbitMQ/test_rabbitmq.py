@@ -1,4 +1,10 @@
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/02
 import pika
+
+
 """RBMQ实现生产"""
 credentials = pika.PlainCredentials("admin","admin")
 connection = pika.BlockingConnection(

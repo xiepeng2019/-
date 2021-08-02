@@ -1,8 +1,4 @@
-# a = lambda x,y:x+y
-# print(a(3,3))
 
-# def test_lambda(x,y):
-#     return 3*5
 
 n = 0
 for i in range(11):

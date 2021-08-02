@@ -1,4 +1,9 @@
-import pika,sys
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/02
+import pika
+import sys
 credentials = pika.PlainCredentials("admin", "admin")
 connection = pika.BlockingConnection(
     pika.ConnectionParameters(

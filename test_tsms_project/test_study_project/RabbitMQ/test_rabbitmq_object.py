@@ -1,5 +1,12 @@
-import pika,sys,uuid,retry,time,random,sys,json
-from tenacity import retry, stop_after_attempt, wait_random_exponential
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/02
+import pika
+import json
+from tenacity import retry
+from tenacity import stop_after_attempt
+from tenacity import wait_random_exponential
 from tsms_pytest_commons import tsms_db
 from tsms_pytest_commons import tsms_rds
 

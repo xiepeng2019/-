@@ -20,20 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd75b079-8ff3-4ae9-9e24-6913c29e377c" name="Default Changelist" comment="test">
-      <change beforePath="$PROJECT_DIR$/test_study_project/RabbitMQ/test_rabbitmq.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_study_project/RabbitMQ/test_rabbitmq.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_study_project/RabbitMQ/test_rabbitmq_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_study_project/RabbitMQ/test_rabbitmq_01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_study_project/RabbitMQ/test_rabbitmq_fabudingyue.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_study_project/RabbitMQ/test_rabbitmq_fabudingyue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_study_project/RabbitMQ/test_rabbitmq_object.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_study_project/RabbitMQ/test_rabbitmq_object.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_study_project/RabbitMQ/tsms_mq_to_redis.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_study_project/RabbitMQ/tsms_mq_to_redis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_study_project/test_oneday_01/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_study_project/test_oneday_01/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_study_project/test_oneday_01/test_百度贴吧.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_study_project/test_oneday_01/test_百度贴吧.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_study_project/test_yida_project/test_yida_api/login_up.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_study_project/test_yida_project/test_yida_api/resource_01.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_study_project/test_yida_project/yida_pytest_commons/login_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_study_project/整体复习/python基础/Flask测试骨架.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_study_project/整体复习/python基础/匿名函数.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_study_project/整体复习/python基础/匿名函数.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_study_project/整体复习/python基础/爬虫.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_study_project/整体复习/study_dumps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsms_selenium/selenium_chrome_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/tsms_selenium/selenium_chrome_01.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +32,50 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="RunManager">
+    <configuration name="selenium_chrome_01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test_tsms_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tsms_selenium" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tsms_selenium/selenium_chrome_01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.selenium_chrome_01" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="test">
+      <created>1627874069060</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1627874069060</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test">
+      <created>1627874095041</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1627874095041</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -59,11 +90,39 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="2610" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1627872358697">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2610" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627872358697" />
+    <state width="1899" height="352" key="GridCell.Tab.0.bottom" timestamp="1627875775301">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="352" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627875775301" />
+    <state width="1899" height="352" key="GridCell.Tab.0.center" timestamp="1627875775301">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="352" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627875775301" />
+    <state width="1899" height="352" key="GridCell.Tab.0.left" timestamp="1627875775301">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="352" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627875775301" />
+    <state width="1899" height="352" key="GridCell.Tab.0.right" timestamp="1627875775301">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="352" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627875775301" />
+    <state x="2672" y="221" key="RollbackChangesDialog" timestamp="1627875603973">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2672" y="221" key="RollbackChangesDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627875603973" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1627874104922">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627874104922" />
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1627871644439">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>

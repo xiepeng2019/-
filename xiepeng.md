@@ -1,0 +1,16 @@
+####  知识图谱
+  *  理论基础知识
+  *  fiddler和postman工具的使用
+  *  Git的使用
+  *  unittest和pytest的基础复习
+  *  所有的视频整体回顾
+  *  中间件的复习
+  *  Flask的使用
+  *  http协议了解
+  *  Redis的基础操作还需要加强学习，基本上无记忆
+  *  AMQP协议的复习还需加强
+  *  kafka的使用和工作模式
+  *  进程与线程和协程的原理
+  *  性能测试：locust、jmeter
+  *  Jenkins的使用，结合Git进行持续化集成
+  *  k8s的基本命令

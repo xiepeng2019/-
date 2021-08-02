@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cd75b079-8ff3-4ae9-9e24-6913c29e377c" name="Default Changelist" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsms_selenium/selenium_chrome_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/tsms_selenium/selenium_chrome_01.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +28,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="RunManager">
     <configuration name="selenium_chrome_01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test_tsms_project" />
@@ -75,7 +83,21 @@
       <option name="project" value="LOCAL" />
       <updated>1627874095041</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test">
+      <created>1627876175845</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1627876175845</updated>
+    </task>
+    <task id="LOCAL-00004" summary="test">
+      <created>1627876250821</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1627876250821</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,30 +121,38 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2610" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627872358697" />
-    <state width="1899" height="352" key="GridCell.Tab.0.bottom" timestamp="1627875775301">
+    <state x="2360" y="230" key="DiffContextDialog" timestamp="1627876277310">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="352" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627875775301" />
-    <state width="1899" height="352" key="GridCell.Tab.0.center" timestamp="1627875775301">
+    <state x="2360" y="230" key="DiffContextDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627876277310" />
+    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1627884574634">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="352" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627875775301" />
-    <state width="1899" height="352" key="GridCell.Tab.0.left" timestamp="1627875775301">
+    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627884574634" />
+    <state width="1899" height="352" key="GridCell.Tab.0.bottom" timestamp="1627884582991">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="352" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627875775301" />
-    <state width="1899" height="352" key="GridCell.Tab.0.right" timestamp="1627875775301">
+    <state width="1899" height="352" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627884582991" />
+    <state width="1899" height="352" key="GridCell.Tab.0.center" timestamp="1627884582991">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="352" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627875775301" />
+    <state width="1899" height="352" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627884582991" />
+    <state width="1899" height="352" key="GridCell.Tab.0.left" timestamp="1627884582990">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="352" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627884582990" />
+    <state width="1899" height="352" key="GridCell.Tab.0.right" timestamp="1627884582991">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="352" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627884582991" />
     <state x="2672" y="221" key="RollbackChangesDialog" timestamp="1627875603973">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2672" y="221" key="RollbackChangesDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627875603973" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1627874104922">
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1627876284351">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627874104922" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627876284351" />
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1627871644439">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>

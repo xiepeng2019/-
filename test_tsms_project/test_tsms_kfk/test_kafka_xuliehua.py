@@ -1,8 +1,13 @@
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/02
 import json
 import logging
-import time
 logging.basicConfig(level=logging.INFO, format='%(asctime)-16s %(levelname)-8s%(message)s')
 from kafka import KafkaProducer
+
+
 # 声明编码格式，默认是utf-8
 # 注意，value_serializer接收的是⼀个匿名函数，接收⼀个字典对象，返回⼀个bytes对象
 producer = KafkaProducer(

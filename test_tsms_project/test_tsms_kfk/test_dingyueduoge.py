@@ -1,6 +1,14 @@
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/02
+
 import logging
 from kafka import KafkaConsumer
+
+
 logging.basicConfig(level=logging.INFO, format='%(asctime)-16s %(levelname)-8s%(message)s')
+
 consumer = KafkaConsumer(
     'msgTopic',
     group_id='group19',

@@ -26,10 +26,8 @@ print(browser.current_url)
 # input = browser.find_element_by_link_text('秒杀').click()
 # print(browser.current_url)
 # print(input.text)
-#
+
 # # 通过classname 查找京东左边栏
 # c = browser.find_elements_by_css_selector("ul li.service_item")
 # for i in c:
 #         print(i.text)
-
-

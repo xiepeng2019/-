@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 # __author__ = "xiepeng"
 # Date: 2021/08/02
+
 import logging
 import pytest
 import requests
@@ -13,7 +14,7 @@ def test_fix(login, login2, create_sign):
     logging.info("用例本体")
 
 
-class Test111():
+class Test():
     def test_1(self, tb):
         # logger.info("okk")
         # logger.info(random_1(self.test_1))

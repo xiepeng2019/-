@@ -25,7 +25,11 @@ test_send_param_fail = [
 ]
 
 
+
 class TestTsmsSendApiSingle(object):
+    """
+    this db query distinct
+    """
     @retry(stop=stop_after_attempt(5), wait=wait_random_exponential(2, max=5))
     def db_retry(self, data, uuid):
         """
@@ -35,6 +39,8 @@ class TestTsmsSendApiSingle(object):
         assert res["consume"] == 1
         assert res["status"] == "success"
         assert res["mobile"] == data["mobiles"][0]
+
+
     @pytest.mark.critical
     @pytest.mark.flaky(reruns=5, reruns_delay=1)
     def test_send_api_01(self, tb, rds):

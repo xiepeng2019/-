@@ -2,9 +2,8 @@
 # -*- coding: utf-8 -*-
 # __author__ = "xiepeng"
 # Date: 2021/08/02
+
 import pika
-
-
 
 
 def callback(ch,method,properties,body):

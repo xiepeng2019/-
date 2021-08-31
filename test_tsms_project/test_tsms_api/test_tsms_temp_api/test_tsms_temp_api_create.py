@@ -3,7 +3,8 @@
 # __author__ = "xiepeng"
 # Date: 2021/08/02
 from tsms_pytest_commons.tsms_base import TsmsBase
-import logging, pytest
+import logging
+import pytest
 
 
 logger = logging.getLogger(__name__)

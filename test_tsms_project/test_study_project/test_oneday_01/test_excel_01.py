@@ -1,7 +1,16 @@
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/31
+
 import xlwt,unittest
-#设置表格样式
-def set_stlye(name,height,bold=False):
+
+
+def set_stlye(name, height, bold=False):
+    """
+    #设置表格样式
     #初始化样式
+    """
     style = xlwt.XFStyle()
     #创建字体
     font = xlwt.Font()
@@ -16,7 +25,7 @@ def set_stlye(name,height,bold=False):
 def write_excel():
     f = xlwt.Workbook()
     #创建sheet1
-    sheet1 = f.add_sheet(u'sheet1',cell_overwrite_ok=True)
+    sheet1 = f.add_sheet(u'sheet1', cell_overwrite_ok=True)
     row0 = [u'业务',u'状态',u'北京',u'上海',u'广州',u'深圳',u'状态小计',u'合计']
     column0 = [u'机票',u'船票',u'火车票',u'汽车票',u'其他']
     status = [u'预定',u'出票',u'退票',u'业务小计']
@@ -38,17 +47,17 @@ def write_excel():
         i += 4
 
     #创建sheet2
-    sheet2 = f.add_sheet(u'sheet2',cell_overwrite_ok=True)
+    sheet2 = f.add_sheet(u'sheet2', cell_overwrite_ok=True)
     row0 = [u'姓名',u'年龄',u'出生日期',u'爱好',u'关系']
     column0 = [u'UZI',u'Faker',u'大司马',u'PDD',u'冯提莫']
 
     #生成第一行
     for i in range(0,len(row0)):
-        sheet2.write(0,i,row0[i],set_stlye('Times New Roman',220,True))
+        sheet2.write(0,i,row0[i],set_stlye('Times New Roman', 220, True))
 
     #生成第一列
     for i in range(0,len(column0)):
-        sheet2.write(i+1,0,column0[i],set_stlye('Times New Roman',220,True))
+        sheet2.write(i+1,0,column0[i],set_stlye('Times New Roman', 220, True))
     f.save('data.xls')
 
 if __name__ == '__main__':

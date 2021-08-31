@@ -1,4 +1,13 @@
-import re,random,pytest,logging
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/31
+
+import re
+import random
+import pytest
+import logging
+
 """学习第一天12-11"""
 
 """for与else 合法性"""

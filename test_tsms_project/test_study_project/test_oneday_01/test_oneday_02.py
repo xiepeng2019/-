@@ -1,3 +1,8 @@
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/31
+
 from urllib import request
 import os
 from user_agents import parse

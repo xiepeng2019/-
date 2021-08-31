@@ -1,7 +1,15 @@
-import requests,json,sys,pytest
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/31
+
+import requests
+import json
+import sys
+import pytest
 
 # class student(object):
-#     def __init__(self,name,age):
+#     def __init__(self, name, age):
 #         self.__name= name
 #         self.__age = age
 #
@@ -11,7 +19,7 @@ import requests,json,sys,pytest
 #     def get__age(self):
 #         return self.__age
 #
-#     def set_name(self,name):
+#     def set_name(self, name):
 #         if 20<=int(name)<=100:
 #             self.__name = name
 #         else:

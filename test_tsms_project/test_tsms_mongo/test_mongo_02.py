@@ -1,8 +1,10 @@
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/31
 import json
 import logging
 import random
-
-import time
 from tsms_pytest_commons.configs.tsms_mongo_config import TsmsMongo
 from tenacity import retry, stop_after_attempt, wait_random_exponential
 from tsms_pytest_commons.tsms_base import TsmsBase

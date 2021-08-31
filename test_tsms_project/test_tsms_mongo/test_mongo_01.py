@@ -1,3 +1,7 @@
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/31
 from pymongo import MongoClient
 
 client = MongoClient("mongodb://148.70.194.135:27017/")

@@ -1,3 +1,8 @@
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/31
+
 import random,string
 """随机数练习"""
 def create_str(num_int=0,num_letters=0,num_zh=0,num_pun=0):

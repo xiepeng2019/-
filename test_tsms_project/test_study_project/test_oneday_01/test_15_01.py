@@ -1,7 +1,14 @@
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+# __author__ = "xiepeng"
+# Date: 2021/08/31
+
 import pytest,logging,json,sys,random
 from json import JSONDecodeError
 from test_study_project.test_oneday_01.test_skip_import import limit_ver
 logging.basicConfig(level=logging.INFO, format='%(asctime)-16s %(levelname)-8s %(message)s:')
+
+
 # a = "test_input,expected"
 # # b =  [
 # #     ("1+1", 2),

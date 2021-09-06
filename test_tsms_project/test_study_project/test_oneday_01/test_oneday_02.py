@@ -5,7 +5,6 @@
 
 from urllib import request
 import os
-from user_agents import parse
 import time
 import random
 import re

@@ -34,6 +34,6 @@ def get2(getkey, res_dict):
             for k, v in i.items():
                 if k == getkey:
                     print(v)
-                get2(getkey, i)
+                # get2(getkey, i)
 get2("shenzhen",dcs)
-print(list2)
+# print(list2)

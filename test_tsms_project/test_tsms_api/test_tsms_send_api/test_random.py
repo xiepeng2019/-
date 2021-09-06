@@ -5,8 +5,7 @@
 
 import logging
 import pytest
-import requests
-import random
+
 logger = logging.getLogger(__name__)
 
 
